@@ -1,0 +1,85 @@
+body{
+    background-color: #000000;
+    font-family: "arial";
+    font-size: 20pt;
+}
+header{
+    color: white;
+    text-align: center;
+}
+section{
+    background-color: rgb(104, 48, 121,0.927);
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    height: 529px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.33);
+    padding-top: 60px;
+}
+footer{
+    color: white;
+    text-align: center;
+    font-style: italic;
+
+}
+.login{
+    font-size: 15pt;
+}
+
+#h1{
+    font-size: 15pt;
+}
+.margin-24-bottom{
+    margin-bottom: 24px;
+}
+.margin-24-top{
+    margin-top: 24px;
+}
+.margin-16-bottom{
+    margin-bottom: 16px;
+}
+.margin-16-top{
+    margin-bottom: 24px;
+}
+.margin-8-top{
+    margin-top: 8px;
+}
+.margin-8-bottom{
+    margin-bottom: 8px;
+}
+
+hr{
+    border: 1px solid;
+}
+input{
+    background:#f2f1fa;
+    border-radius: 8px;
+    height: 48px;
+    border: none;
+    text-indent: 10px;
+    width: 100%;
+}
+input:focus{
+    background: #D2CEFF;
+    outline-width: 0;
+
+}
+label{
+    display: block;
+}
+button{
+    background-color: #000000;
+    border-radius: 8px;
+    padding: 16px;
+    width: 100%;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 13pt;
+    
+}
+button:hover{
+    background-color: rgb(77, 255, 0);
+    color: black;
+}
