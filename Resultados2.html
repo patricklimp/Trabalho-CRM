@@ -33,7 +33,9 @@
         </ul>
     </nav>
     <div class="Grafico">
-        <div class="chart"><img class="graphics" src="imagens/grafico.png" alt="grafico"></div>
+        <div id="chart">
+        <img id="graphics" src="imagens/grafico.png" alt="grafico" onmouseover="aumenta1()" onmouseout="diminui1()" >
+    </div>
     </div>
     
     <section class="Indices">
@@ -53,15 +55,15 @@
         <div class="area0">
 
         </div>
-        <div class="area1">
+        <div id= "area1" onmouseover="increase1()" onmouseout="decrease1()">
             <p>Quantidade de clientes que respondeu.</p>
         </div>
 
-        <div class="area2">
+        <div id="area2"onmouseover="increase2()" onmouseout="decrease2()">
             <p>Quantidade de perguntas não respondidas</p>
         </div>
         
-        <div class="area3">
+        <div id="area3"onmouseover="increase3()" onmouseout="decrease3()">
             <p>Meta da empresa</p>
         </div>
         
