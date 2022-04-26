@@ -34,10 +34,16 @@ p{
 .conta{
     width: 50px;
 }
+#pesquisa{
+    width: 200px;
+    border: none;
+    height: 20px;
+}
 
 .menu { background:  rgba(104, 48, 121, 0.927);
     width: 350px;
     height: 100%;
+    
     
 
 }
@@ -68,6 +74,7 @@ ul {
     margin-top: -275px;
     background-color: rgba(104, 48, 121, 0.927);
     width: 750px;
+    border-radius: 30px;
 
 }
 .area0{background: body;
@@ -170,33 +177,38 @@ ul {
 .Q1{
     width: 50px;
     height: 20px;
-    margin-top: 0px;
+    margin-top: -10px;
     margin-bottom: 20px;
+    margin-left: -80px;
 }
 .respondidas { 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     width: 10px;
     height: 10px;
     background-color: blue;
-    margin-top: -3px;
+    margin-top: 20px;
     margin-bottom: -90px;
     margin-left: -30px;
     
     
     
 }
-.respondidas p{
+.Q1{width: 100px;
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-right: -10px;
     
-    margin-left: -10px;
+  
 }
 
 .nao-respondidas {
     width: 10px;
     height: 10px;
     background-color: red;
-    margin-right: -60px;
+    margin-right: -90px;
+    margin-top: 20px;
     
     
     
@@ -205,14 +217,31 @@ ul {
     margin-right: -50px;
 }
 .graphics{
-   
+   transform-origin: center center;
    width: 750px;
-   height: 240px;
+   height: 260px;
    border-radius: 30px;
 }
 .chart{
     width: 750px;
     height: 260px;
     border-radius: 30px;
+    margin-top: 0px;
 
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 150px;
+    width: 100%;
+    background-color:rgba(104, 48, 121, 0.927) ;
+    height: 100px;
+    
+
+}
+footer p{
+    
+    text-align: center;
 }
