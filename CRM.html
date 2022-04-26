@@ -6,18 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DASHBOARD</title>
     <link rel="stylesheet" href="CRM.css">
+    <script src="crm.js"></script>
 </head>
 <body>
     <header>
         <div class="logo">
-            Logo
+            <img src="Logo.png" alt="logo">
         </div>
         <div class="barradepesquisa">
             <input type="text" name="pesquisa" id="pesquisa">
-            <button> pesquisar</button>
+            <button id="botao"> Pesquisar</button>
         </div>
         <div class="user">
-            User
+            <img class="conta" src="user.png" alt="">
+            <p>MinhaConta</p>
         </div>
     </header>
     <div class="container">
@@ -32,23 +34,23 @@
     </nav>
 
     <section class="grid">
-        <div class="area1 content">
+        <div class="area1 content" id="teste" onmouseover="increase()" onmouseout="decrease()">
             <p>Dados da pesquisa de gêneros.</p>
         </div>
 
-        <div class="area1 content">
+        <div class="area1 content" id="teste1" onmouseover="increase1()" onmouseout="decrease1()">
             <p>Dados de assinaturas das plataformas.</p>
         </div>
         
-        <div class="area1 content">
+        <div class="area1 content" id="teste2" onmouseover="increase2()" onmouseout="decrease2()">
             <p>Dados de cancelamentos das plataformas.</p>
         </div>
 
-        <div class="area1 content">
+        <div class="area1 content" id="teste3" onmouseover="increase3()" onmouseout="decrease3()">
             <p>Quantas pessoas responderam as perguntas.</p>
         </div>
 
-        <div class="area1 content">
+        <div class="area1 content" id="teste4" onmouseover="increase4()" onmouseout="decrease4()">
             <p>Quantas pessoas responderam as perguntas da sua empresa.</p>
         </div>
         <div class="area1"></div>
